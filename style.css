@@ -17,7 +17,6 @@ main {
 }
 
 nav {
-
     display: flex;
     color: white;
     font-weight: bolder;
@@ -43,7 +42,7 @@ nav a:hover {
     color: #64ae72;
 }
 
-#geschiedenis  {
+#geschiedenis {
     padding-top: 20px;
 }
 
@@ -72,13 +71,12 @@ section {
     margin: 20px;
 }
 
-section.info {
-    padding: 18px 54px;
-    font-size: 1.3em;
-    line-height: 1.8em;
+.info {
+    line-height: 2em;
     margin-bottom: 220px;
-    padding-bottom: 80px;
+    font-size: 1.5em;
     background-color: white;
+    padding: 20px 55px;
     overflow: hidden;
     overflow-wrap: break-word;
 }
@@ -92,14 +90,12 @@ section.info {
 }
 
 header {
-    text-align: center;
-    height: 80vh;
-    padding: 20px;
+    height: 75vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(../images/header.jpg);
+    padding: 15px;
+    background-image: url(header.jpg);
     background-size: cover;
+    justify-content: center;
     background-position: center;
 }
 
@@ -122,11 +118,17 @@ footer {
         position: static;
         padding-bottom: 20px;
     }
+
     section {
+        max-width: 100%;
+    }
+
+    .info {
         max-width: 90%;
     }
-    #poster {
-        max-width: 90%;
+
+    #footerTxt {
+        font-size: 3em;
     }
 }
 
